@@ -1,0 +1,140 @@
+# praveenpersonalwebsite.github.io
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+  }
+ 
+  /* Style the input fields */
+  input[type="text"] {
+    width: 110%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #504f4f;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: #c7e5f1;
+    font-size: medium;
+}
+  input[type="password"]
+{
+    width: 110%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #504f4f;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: #c7e5f1;
+    font-size: medium;
+  
+}  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #1912ec;
+    color:honeydew;
+    padding: 10px 5px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    height: fit-content;
+    width:20%;
+    font-size: medium;
+    
+
+  }
+   select {
+    width: 30%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #504f4f;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: #c7e5f1;
+    font-size: medium
+}
+input[type="phone"]{  
+     width: 60%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #504f4f;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: #c7e5f1;
+    font-size: medium;
+
+}
+  /* Change the submit button color on hover */
+  input[type="submit"]:hover {
+    background-color: #1912ec;
+    font-size:15px;
+  }
+  /* Style the table cells */
+  td {
+    padding: 1px;
+    text-align: left;
+  }
+  
+  /* Style the table row */
+  tr {
+    border-bottom: 1px solid #7ed4f7;
+  }
+  
+  /* Style the heading and subheading */
+  h2, h5 {
+    margin-top: 0;
+    font-weight:normal;
+  }
+
+ 
+  .btn.Google {
+    width: 110%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #504f4f;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: #c7e5f1;
+    font-size: medium;
+    text-align: center;
+    position: relative;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .btn.Google:hover {
+    background-color: #8fc3e1;
+  }
+  
+  .google-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .google-icon:hover {
+    background-color: #f6f6f6;
+  }
+  body{
+   
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+   
+  }
+  
+  
+  /* Apply styles to all text input fields */
+  
